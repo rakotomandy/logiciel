@@ -15,7 +15,7 @@ class Login
         ]);
         Load::view("login");
         Load::template("footer",[
-            "js"=>["jquery.min","all","login"]
+            "js"=>["reusable/jquery.min","reusable/sweetalert2.all.min","reusable/all","login"]
         ]);
     }
 }
